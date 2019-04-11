@@ -49,7 +49,6 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-                    <verbose>true</verbose>
                     <doclet>docs.TestSheetDoclet</doclet>
                     <docletArtifacts>
                         <docletArtifact>

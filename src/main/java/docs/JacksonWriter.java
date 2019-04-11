@@ -149,11 +149,14 @@ public class JacksonWriter {
         }
 
         System.out.println(this.getClass().getClassLoader());
+
         System.out.println("Check that we can get hold of class: " + WstxOutputFactory.class.getName());
 
+        System.out.println("Setting javax.xml.stream.XMLOutputFactory to " + WstxOutputFactory.class.getName());
         // Set the property
         System.setProperty("javax.xml.stream.XMLOutputFactory", WstxOutputFactory.class.getName());
 
+        System.out.println("Trying to instantiate a new instance from XMLOutputFactory");
         // Prepare for crash with ClassNotFound ...
         System.out.println("XMLOutputFactory: " + XMLOutputFactory.newInstance().getClass());
 //        System.setProperty("javax.xml.stream.isRepairingNamespaces", "true");
