@@ -3,7 +3,9 @@
 
 ## How to reproduce
 ```sh
-mvn org.apache.maven.plugins:maven-javadoc-plugin:3.0.1:test-javadoc
+git clone https://github.com/fatso83/server-javadoc-repro
+cd server-javadoc-repro
+mvn install org.apache.maven.plugins:maven-javadoc-plugin:3.0.1:test-javadoc
 ```
 
 ## The problematic code
