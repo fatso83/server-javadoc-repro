@@ -1,4 +1,4 @@
-# `ClassNotFoundException` with custom xml serializer for `javadoc`
+# `ClassNotFoundException` with custom xml serializer
 > This repo is to reproduce easily an issue with overriding the xml serializer for a doclet
 
 ## How to reproduce
